@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+#search_form{
+	position:absolute;
+	top:35px; 
+	left:19%;
+	width:60%;
+	height:40px
+}
+
+#search_query{
+	position:absolute;
+	top:5px;
+	bottom:5px;
+	left:5px;
+	width:85%;
+	height:30px;
+	padding:4px 7px;
+	padding:6px 7px 2px\9;
+	font:19px arial;
+	border:1px solid #cdcdcd;
+	border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+	vertical-align:center;
+	margin:0 5px 0 0
+}
+
+#search_go{
+	position:absolute;
+	top:5px;
+	bottom:2px;
+	right:5px;
+	font-size:20px;
+	text-align:center;
+	width:11%;
+	height:40px;
+	padding:0;
+	padding-top:2px\9;
+	border:0.1;
+	background:#cccccc;
+	cursor:pointer
+}
+
+#search_list{
+	position:absolute;
+	top:90px
+}
+
+#message_form{
+	position:absolute;
+	top:40px;
+	left:10%;
+	right:10%;
+	width:80%
+}
+
+#title{
+	position:absolute;
+	top:0px;
+	left:10px
+}
+
+#input_message{
+	position:absolute;
+	top:100px;
+	right:0px;
+	width:100%	
+}
+#message{
+	width:87%;
+	height:30px;
+	padding:1px 1px;
+	padding:1px 1px 1px\9;
+	font:19px arial;
+	border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+	vertical-align:center;
+}
+
+#input_author{
+	position:absolute;
+	top:180px;
+	right:20px;
+	width:300px;
+	height:30px;
+}
+#author{
+	width:180px;
+	height:30px;
+	padding:1px 1px;
+	padding:1px 1px 1px\9;
+	font:19px arial;
+	border-color:#9a9a9a #cdcdcd #cdcdcd #9a9a9a;
+	vertical-align:center;
+}
+#message_go{
+	position:absolute;
+	right:0px;
+	top:180px;
+	font-size:14px;
+	width:80px;
+	height:35px;
+	padding:0;
+	border:0.1;
+	background:#FEDCBA;
+	cursor:pointer
+}
+#succeed{
+	position:absolute;
+	top:180px;
+	left:5%
+}
+
+
+label{
+	font-size:20px;
+}

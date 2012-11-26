@@ -1,0 +1,94 @@
+body{
+	font:15px arial;
+	background:#eeeeee;
+	margin:0;
+	padding:0;
+	widht:100%;
+	height:100%
+}
+
+
+#head{
+	position: absolute;
+	left: 15px; 
+	top: 5px;
+	font-style:italic;
+	font-weight:lighter;
+	font-size:13px
+}
+
+
+#foot{
+	font-style:italic;
+	font-size:12px;
+	position:absolute;
+	bottom:0px;
+	left:48%
+}
+
+#log {
+	position:absolute;
+	top:5px;
+	right:10px;
+	MARGIN: 0px 0px 0px 0px;
+	PADDING: 0px 0px 0px 0px;
+	BORDER: #fff 0px solid;
+	BACKGROUND: #eeeeee;
+	COLOR: #666;
+	HEIGHT:30px
+}
+
+#log ul {
+CLEAR: right;
+MARGIN: 0px;
+PADDING:0px;
+BORDER: 0px;
+LIST-STYLE-TYPE: none;
+TEXT-ALIGN: center;
+DISPLAY:inline;
+}
+
+#log li {
+FLOAT: right;
+DISPLAY: block;
+MARGIN: 0px;
+PADDING: 0px;
+TEXT-ALIGN: center;
+}
+
+#log li a {
+DISPLAY: block;
+PADDING:2px 3px 2px 3px;
+WIDTH: 100%;
+COLOR: #333333;
+TEXT-DECORATION: none;
+}
+
+#log li a:hover {COLOR: #FF0000; }
+#log ul li#one A { WIDTH: 60px}
+#log ul li#two A { WIDTH: 40px}
+#log ul li#three A { WIDTH: 40px}
+
+#log_form{
+	position:absolute;
+	top:20%;
+	left:38%
+}
+#input_user{
+	position:absolute;
+	right:17px
+}
+
+#input_password{
+	position:absolute;
+	right:14px
+}
+
+#input_go{
+	position:absolute;
+	right:14px
+}
+
+.tblFooters{
+	height:23px
+}
